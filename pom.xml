@@ -32,6 +32,10 @@
 			<id>bukkit-repo</id>
 			<url>http://repo.bukkit.org/content/groups/public/</url>
 		</repository>
+		<repository>
+   <id>CenSoft</id>
+   <url>http://repo.censoredsoftware.com/</url>
+</repository>
     </repositories> 
 	<dependencies>
 		<dependency>
@@ -41,5 +45,17 @@
 			<type>jar</type>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+   <groupId>com.massivecraft</groupId>
+   <artifactId>mcore</artifactId>
+   <version>7.2.0-SNAPSHOT</version>
+   <scope>provided</scope>
+   <dependency>
+   <groupId>com.massivecraft</groupId>
+   <artifactId>factions</artifactId>
+   <version>2.4.0-SNAPSHOT</version>
+   <scope>provided</scope>
+</dependency>
+</dependency>
 	</dependencies>
 </project>

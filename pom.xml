@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.grantswim4</groupId>
-<artifactId>FStocks</artifactId>
-<version>0.1.0</version>
+	<artifactId>FStocks</artifactId>
+	<version>0.1.0</version>
 	<build>
-	<finalName>FStocks</finalName>
+		<finalName>FStocks</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -17,15 +17,15 @@
 			</plugin>
 		</plugins>
 	</build>
-	  <name>FStocks</name>
-  <description>A addon that cites you when you PvP log</description>
-  <licenses>
-    <license>
-      <name>Attribution-ShareAlike 4.0 International</name>
-      <url>http://creativecommons.org/licenses/by-sa/4.0/</url>
-    </license>
-  </licenses>
- 
+	<name>FStocks</name>
+	<description>A addon that cites you when you PvP log</description>
+	<licenses>
+		<license>
+			<name>GPL v3</name>
+			<url>http://choosealicense.com/licenses/gpl-v3/</url>
+		</license>
+	</licenses>
+
 
 	<repositories>
 		<repository>
@@ -33,10 +33,10 @@
 			<url>http://repo.bukkit.org/content/groups/public/</url>
 		</repository>
 		<repository>
-   <id>CenSoft</id>
-   <url>http://repo.censoredsoftware.com/</url>
-</repository>
-    </repositories> 
+			<id>CenSoft</id>
+			<url>http://repo.censoredsoftware.com/</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.bukkit</groupId>
@@ -46,16 +46,16 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-   <groupId>com.massivecraft</groupId>
-   <artifactId>mcore</artifactId>
-   <version>7.2.0-SNAPSHOT</version>
-   <scope>provided</scope>
-   <dependency>
-   <groupId>com.massivecraft</groupId>
-   <artifactId>factions</artifactId>
-   <version>2.4.0-SNAPSHOT</version>
-   <scope>provided</scope>
-</dependency>
-</dependency>
+			<groupId>com.massivecraft</groupId>
+			<artifactId>mcore</artifactId>
+			<version>7.2.0-SNAPSHOT</version>
+			<scope>provided</scope>
+			<dependency>
+				<groupId>com.massivecraft</groupId>
+				<artifactId>factions</artifactId>
+				<version>2.4.0-SNAPSHOT</version>
+				<scope>provided</scope>
+			</dependency>
+		</dependency>
 	</dependencies>
 </project>

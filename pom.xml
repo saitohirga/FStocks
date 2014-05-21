@@ -21,8 +21,8 @@
 	<description>A addon that cites you when you PvP log</description>
 	<licenses>
 		<license>
-			<name>GPL v3</name>
-			<url>http://choosealicense.com/licenses/gpl-v3/</url>
+			<name>Apache v2 License</name>
+			<url>http://choosealicense.com/licenses/apache/</url>
 		</license>
 	</licenses>
 

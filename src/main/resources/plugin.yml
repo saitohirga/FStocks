@@ -1,0 +1,4 @@
+name: FStocks
+main: me.GRANTSWIM4.FStocks.Main
+version: 1.0
+depend: [Factions]

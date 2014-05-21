@@ -13,6 +13,7 @@ public final class Main extends JavaPlugin {
 	    		{
 	    			// Welcome message
 	    			getLogger().info("Opening stock market");
+	 
 
 	    		}
 	    		

@@ -15,6 +15,7 @@ public final class FSEL implements Listener {
 		String f1 = p.getFactionName();
 		String f2 = BoardColls.get().getFactionAt(PS.valueOf(loc)).getName();
 		return f1.equalsIgnoreCase(f2);
+
 	}
 
 }
